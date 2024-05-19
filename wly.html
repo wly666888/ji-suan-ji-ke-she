@@ -18,13 +18,6 @@
             align-items: stretch;
             height: 100%;
         }
-        .exit-button {
-            background-color: #f00;
-            color: white;
-            border: none;
-            cursor: pointer;
-            margin-top: auto; /* 将按钮推到底部 */
-        }
     <style>
     #fixedButton {
   position: fixed;
@@ -59,12 +52,31 @@
      </P>
      <P style="text-indent:3em;line-height:4;font-size:30px"><a href="https://wly666888.github.io/wlywwwsji/daxueshenghuo.html">大学生活</a></p>
    </div>
-  
-    <div style="text-align:center">
+ <div class="footer">
+  <a href="https://www.baidu.com" target="_blank" class="exit-button">退出</a>
+</div>
+<style>
+.exit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 
-      <div class="button-container">
-        <button class="exit-button">退出</button>
+}
+  .footer {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    height: 50px; /* 根据需要设置底部容器的高度 */
+    
+  }
+
+ 
+</style>
+
+    
     </div>
   </body>
 </html>
-
